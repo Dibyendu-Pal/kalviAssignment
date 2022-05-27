@@ -1,0 +1,209 @@
+.navbar {
+    background-color: transparent;
+    padding: 5vw 40vw 5vw 8vw;
+}
+
+.nav-link {
+    font-weight: 500;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-1-2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.home-left-div {
+    padding-right: 12vw;
+    font-size: 1vw;
+    vertical-align: middle;
+}
+
+.home-left-div p {
+    margin-bottom: 1vw;
+}
+
+.home-left-div a {
+    font-size: 1.1vw;
+    padding: 0.4vw 1vw;
+    border-radius: 0.4vw;
+}
+
+#green-strip {
+    position: absolute;
+    margin-left: 55%;
+    height: 40vw;
+}
+
+.education-left-div p{
+    font-size: 7vw;
+    font-weight: 650;
+    line-height: 6vw;
+    padding-left: 8vw;
+    position: relative;
+}
+
+.education-paragraph {
+    margin-bottom: 0.5vw;
+}
+
+.education-date {
+    margin-bottom: 0.5vw;
+}
+
+.my-work-heading {
+    font-weight: 750;
+    font-size: 3vw;
+    margin: 5vw;
+}
+
+.work-card {
+    padding-left: 9vw;
+    padding-right: 5.5vw;
+    margin-bottom: 3vw;
+    padding-top: 1vw;
+}
+
+.work-card-img {
+    margin-bottom: 1vw;
+    width: 15vw;
+    margin-top: 1vw;
+}
+
+.green-bullets-on-prject-pic {
+    position: absolute;
+    width: 2vw;
+    margin-left: 1vw;
+}
+
+.work-card h5 {
+    margin-bottom: 0.5vw;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.work-card p {
+    margin-bottom: 1.2vw;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.work-card h6 {
+    margin-bottom: 0.5vw;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.work-card h6 a {
+    text-decoration: none;
+    color: #dddd47;
+}
+
+.achivement-div div p {
+    color: yellowgreen;
+    font-size: 2vw;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.achivement-div div h5 {
+    font-size: 1.1vw;
+    font-weight: 500;
+
+}
+
+.achivement-div div {
+    padding-right: 4.4vw;
+    margin-bottom: 4vw;
+}
+
+.hobbies-left-img div img {
+    width: 18vw;
+    margin-left: 5vw;
+}
+
+.hobbies-right-img div img {
+    width: 15vw;
+}
+
+.hobbies-heading h1 {
+    padding-right: 70%;
+    margin-top: 14%;
+    margin-bottom: 2vw;
+    line-height: 6.5vw;
+    font-weight: 700;
+    font-size: 6vw;
+    color: #dddd47;
+}
+
+.hobbies-heading p {
+    margin-bottom: 0.2vw;
+    padding-right: 20%;
+    font-weight: 500;
+    font-size: 1.1vw;
+}
+
+.contact-left-div {
+    margin-right: 30%;
+    background-color: #c7c73e;
+}
+
+.contact-div {
+    padding-left: 7vw;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+    color: white;
+    line-height: 2vw;
+}
+
+.contact-div h1 {
+    font-size: 3.5vw;
+    margin-bottom: 0;
+}
+
+.contact-div p {
+    font-size: 1.1vw;
+}
+
+.fa-brands {
+    font-size: 1.5vw;
+    margin-right: 1vw;
+}
+
+.contact-div img {
+    width: 1.1vw;
+    margin-right: 0.4vw;
+}
+
+@media screen and (max-width: 480px) {
+    .nav-link {
+        font-size: 1vw;
+    }
+
+    .education-paragraph {
+        font-size: 1.7vw;
+    }
+
+    .work-card-img {
+        width: 14vw;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .nav-link {
+        font-size: 1vw;
+    }
+
+    .education-paragraph {
+        font-size: 1.2vw;
+    }
+}
